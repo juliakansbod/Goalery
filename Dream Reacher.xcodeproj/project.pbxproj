@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54BAB9EA294630B2004640BB /* Dream_ReacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB9E9294630B2004640BB /* Dream_ReacherApp.swift */; };
+		54BAB9EC294630B2004640BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB9EB294630B2004640BB /* ContentView.swift */; };
+		54BAB9EE294630B6004640BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BAB9ED294630B6004640BB /* Assets.xcassets */; };
+		54BAB9F1294630B6004640BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BAB9F0294630B6004640BB /* Preview Assets.xcassets */; };
+		54BAB9F3294630B6004640BB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB9F2294630B6004640BB /* Persistence.swift */; };
+		54BAB9F6294630B6004640BB /* Dream_Reacher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB9F4294630B6004640BB /* Dream_Reacher.xcdatamodeld */; };
+		54BAB9FF294631C8004640BB /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB9FE294631C8004640BB /* HabitViewModel.swift */; };
+		54BABA01294632F5004640BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BABA00294632F5004640BB /* HomeView.swift */; };
+		54BABA04294642FE004640BB /* JosefinSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BABA03294642FE004640BB /* JosefinSans.ttf */; };
+		54BABA0729464440004640BB /* JosefinSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BABA0629464440004640BB /* JosefinSans-Light.ttf */; };
+		54BABA092946444C004640BB /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BABA082946444C004640BB /* JosefinSans-Medium.ttf */; };
+		54BABA0B29464456004640BB /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BABA0A29464456004640BB /* JosefinSans-Bold.ttf */; };
+		54BABA0D2946457D004640BB /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54BABA0C2946457D004640BB /* JosefinSans-SemiBold.ttf */; };
+		54BABA1329466A19004640BB /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BABA1229466A19004640BB /* AddNewView.swift */; };
+		54EFF115294779DA0031B71C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EFF114294779DA0031B71C /* SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54BAB9E6294630B2004640BB /* Goalery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goalery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BAB9E9294630B2004640BB /* Dream_ReacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_ReacherApp.swift; sourceTree = "<group>"; };
+		54BAB9EB294630B2004640BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54BAB9ED294630B6004640BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54BAB9F0294630B6004640BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54BAB9F2294630B6004640BB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		54BAB9F5294630B6004640BB /* Dream_Reacher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dream_Reacher.xcdatamodel; sourceTree = "<group>"; };
+		54BAB9FE294631C8004640BB /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		54BABA00294632F5004640BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		54BABA03294642FE004640BB /* JosefinSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JosefinSans.ttf; sourceTree = "<group>"; };
+		54BABA0529464315004640BB /* Dream-Reacher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dream-Reacher-Info.plist"; sourceTree = SOURCE_ROOT; };
+		54BABA0629464440004640BB /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		54BABA082946444C004640BB /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
+		54BABA0A29464456004640BB /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		54BABA0C2946457D004640BB /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		54BABA1229466A19004640BB /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		54EFF114294779DA0031B71C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54BAB9E3294630B2004640BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BAB9DD294630B2004640BB = {
+			isa = PBXGroup;
+			children = (
+				54BAB9E8294630B2004640BB /* Dream Reacher */,
+				54BAB9E7294630B2004640BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54BAB9E7294630B2004640BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54BAB9E6294630B2004640BB /* Goalery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54BAB9E8294630B2004640BB /* Dream Reacher */ = {
+			isa = PBXGroup;
+			children = (
+				54BABA0529464315004640BB /* Dream-Reacher-Info.plist */,
+				54BABA02294642AD004640BB /* Fonts */,
+				54BAB9FD294630C6004640BB /* ViewModels */,
+				54BAB9FC294630C0004640BB /* Views */,
+				54BAB9E9294630B2004640BB /* Dream_ReacherApp.swift */,
+				54BAB9EB294630B2004640BB /* ContentView.swift */,
+				54BAB9ED294630B6004640BB /* Assets.xcassets */,
+				54BAB9F2294630B6004640BB /* Persistence.swift */,
+				54BAB9F4294630B6004640BB /* Dream_Reacher.xcdatamodeld */,
+				54BAB9EF294630B6004640BB /* Preview Content */,
+			);
+			path = "Dream Reacher";
+			sourceTree = "<group>";
+		};
+		54BAB9EF294630B6004640BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54BAB9F0294630B6004640BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54BAB9FC294630C0004640BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54BABA00294632F5004640BB /* HomeView.swift */,
+				54BABA1229466A19004640BB /* AddNewView.swift */,
+				54EFF114294779DA0031B71C /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54BAB9FD294630C6004640BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				54BAB9FE294631C8004640BB /* HabitViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		54BABA02294642AD004640BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54BABA03294642FE004640BB /* JosefinSans.ttf */,
+				54BABA0629464440004640BB /* JosefinSans-Light.ttf */,
+				54BABA0C2946457D004640BB /* JosefinSans-SemiBold.ttf */,
+				54BABA082946444C004640BB /* JosefinSans-Medium.ttf */,
+				54BABA0A29464456004640BB /* JosefinSans-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54BAB9E5294630B2004640BB /* Dream Reacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BAB9F9294630B6004640BB /* Build configuration list for PBXNativeTarget "Dream Reacher" */;
+			buildPhases = (
+				54BAB9E2294630B2004640BB /* Sources */,
+				54BAB9E3294630B2004640BB /* Frameworks */,
+				54BAB9E4294630B2004640BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream Reacher";
+			productName = "Dream Reacher";
+			productReference = 54BAB9E6294630B2004640BB /* Goalery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54BAB9DE294630B2004640BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					54BAB9E5294630B2004640BB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 54BAB9E1294630B2004640BB /* Build configuration list for PBXProject "Dream Reacher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54BAB9DD294630B2004640BB;
+			productRefGroup = 54BAB9E7294630B2004640BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54BAB9E5294630B2004640BB /* Dream Reacher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54BAB9E4294630B2004640BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BABA0D2946457D004640BB /* JosefinSans-SemiBold.ttf in Resources */,
+				54BABA04294642FE004640BB /* JosefinSans.ttf in Resources */,
+				54BABA0729464440004640BB /* JosefinSans-Light.ttf in Resources */,
+				54BAB9F1294630B6004640BB /* Preview Assets.xcassets in Resources */,
+				54BABA092946444C004640BB /* JosefinSans-Medium.ttf in Resources */,
+				54BAB9EE294630B6004640BB /* Assets.xcassets in Resources */,
+				54BABA0B29464456004640BB /* JosefinSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54BAB9E2294630B2004640BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EFF115294779DA0031B71C /* SplashScreen.swift in Sources */,
+				54BABA1329466A19004640BB /* AddNewView.swift in Sources */,
+				54BAB9F6294630B6004640BB /* Dream_Reacher.xcdatamodeld in Sources */,
+				54BAB9F3294630B6004640BB /* Persistence.swift in Sources */,
+				54BAB9FF294631C8004640BB /* HabitViewModel.swift in Sources */,
+				54BABA01294632F5004640BB /* HomeView.swift in Sources */,
+				54BAB9EC294630B2004640BB /* ContentView.swift in Sources */,
+				54BAB9EA294630B2004640BB /* Dream_ReacherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54BAB9F7294630B6004640BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54BAB9F8294630B6004640BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54BAB9FA294630B6004640BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dream Reacher/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A78272CW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dream-Reacher-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliakansbod.Dream-Reacher";
+				PRODUCT_NAME = Goalery;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54BAB9FB294630B6004640BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dream Reacher/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A78272CW3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dream-Reacher-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliakansbod.Dream-Reacher";
+				PRODUCT_NAME = Goalery;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54BAB9E1294630B2004640BB /* Build configuration list for PBXProject "Dream Reacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAB9F7294630B6004640BB /* Debug */,
+				54BAB9F8294630B6004640BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54BAB9F9294630B6004640BB /* Build configuration list for PBXNativeTarget "Dream Reacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BAB9FA294630B6004640BB /* Debug */,
+				54BAB9FB294630B6004640BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54BAB9F4294630B6004640BB /* Dream_Reacher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54BAB9F5294630B6004640BB /* Dream_Reacher.xcdatamodel */,
+			);
+			currentVersion = 54BAB9F5294630B6004640BB /* Dream_Reacher.xcdatamodel */;
+			path = Dream_Reacher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54BAB9DE294630B2004640BB /* Project object */;
+}
